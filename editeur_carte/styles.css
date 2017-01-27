@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #00293b;
+	font: 12pt "Trebuchet MS", sans-serif;
+}
+
+h1,h2{
+	color: #00a3ec;
+	font-size: 16pt;
+	border-bottom: 2px solid #00a3ec;
+	padding: 2px 5px;
+	background: #00a3ec;
+	color: #00293b;
+}
+
+p{
+	color: #ddf4ff;
+}
+
+div#MapEditor_boxMap{
+	width: 1000px;
+	height: 600px;
+}
+table.MapEditor{
+	width: 99%;
+	margin: 0 auto;
+	padding: 0;
+}
+table.MapEditor tr td{
+	font-size: 12pt;
+	color: #000;
+	padding: 10px;
+}
+table.MapEditor tr td.params{
+	background: #fff9ef;
+	border: 3px solid #ffc3c3;
+}
+table.MapEditor tr td.params input.button{
+	background: #ffecd2;
+	color: #d37a00;
+	padding: 2px 5px;
+	border: 1px solid #d37a00;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+table.MapEditor tr td.skin{
+	background: #dff6ff;
+	border: 3px solid #bcebff;
+}
+table.MapEditor tr td.map{
+	background: #f2ffe8;
+	border: 3px solid #86e442;
+	text-align: center;
+	vertical-align: top;
+}
+table.MapEditor tr td.map table{
+	margin: 0 auto; padding: 0;
+	border-collapse: collapse;
+	border: 2px solid #89e04a;
+}
+table.MapEditor tr td.map table tr{
+	margin: 0; padding: 0;
+}
+table.MapEditor tr td.map table tr td{
+	margin: 0;
+	padding: 1px;
+}
+table.MapEditor tr td.code{
+	background: #91deff;
+	border: 3px solid #59c4f2;
+}
+table.MapEditor tr td.code textarea{
+	background: #e5f7ff;
+	border: 1px solid #2b93bf;
+	padding: 2px;
+	font-size: 8pt;
+}
+table.MapEditor tr td.code input{
+	color: #000;
+	font-size: 10pt;
+	background: #2b93bf;
+	border: 1px solid #2b93bf;
+}
+table.MapEditor tr td.sauv{
+	background: #cdffa9;
+	border: 3px solid #51991d;
+	color: #2b6302;
+}
+table.MapEditor tr td.sauv table tr td{
+	color: #2b6302;
+}
+table.MapEditor tr td.sauv textarea.description{
+	border: 1px solid #a1e96d;
+	color: #409900;
+	background: #dcffc3;
+	padding: 2px;
+	font-size: 10pt;
+}
+table.MapEditor tr td.sauv input.button_save{
+	background: #61b722;
+	color: #000;
+	padding: 10px;
+	border: 1px solid #337007;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+table.MapEditor tr td.sauv input.button_enre{
+	background: #f3b36e;
+	color: #000;
+	padding: 10px;
+	border: 1px solid #c37725;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+table.MapEditor tr td.elements{
+	background: #bcebff;
+	border: 3px solid #2eaee4;
+	vertical-align: top;
+	width: 220px;
+}
+table.MapEditor tr td.elements img{
+	margin: 1px;
+}

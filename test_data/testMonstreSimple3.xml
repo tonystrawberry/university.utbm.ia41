@@ -1,0 +1,25 @@
+<Map Name="test4" Width="12" Height="10">
+<Data>
+" , Avatar1, , , , , , , , , , Exit"
+" , ,StW1,S1W1,StW1, , , , , , ,S1W2"
+"., , ,Diam, , , , , , , , "
+" , , , , ,StW2,StW4,, , , , "
+" ,., , , , ,M2 , , , , , "
+" , , , , , , , , ,StW1 , , "
+" , , , , , , , , ,M2, , "
+" ,M2, , ,StW3, ,M2,StW2, , , , "
+" , , , ,StW4, , M2,StW4, , , , "
+" , , , ,Diam, , Diam, , , , , "
+</Data>
+
+<Parameters GameDifficulty="Easy">
+<Goals Player="1" Time="80">
+  <Goal Gather="3" Item="Diam" Points="10" />
+</Goals>
+<Gravity Direction="0,1" />
+<Gateways>
+    "1,1"
+  </Gateways>
+ </Parameters>
+
+</Map>

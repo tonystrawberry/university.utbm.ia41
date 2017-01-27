@@ -1,0 +1,20 @@
+<Map Name="test6" Width="5" Height="5">
+<Data>
+"Avatar1, , , , "
+" ,StW,StW,StW, "
+" , , ,M2, "
+"StW,StW,StW,StW,StW"
+" , , , ,Diam"
+</Data>
+
+<Parameters GameDifficulty="Easy">
+  <Goals Time="20">
+   <Goal Gather="3" Item="Diam" Points="2" />
+  </Goals>
+  <Gravity Direction="0,1" />
+   <Gateways>
+    "1,1"
+  </Gateways>
+ </Parameters>
+
+</Map>

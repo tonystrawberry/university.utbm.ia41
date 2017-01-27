@@ -1,0 +1,28 @@
+<Map Name="final" Width="10" Height="10">
+<Data>
+"Avatar1,.,.,.,StW,., , ,.,Diam"
+".,.,.,.,StW,.,.,.,StW, "
+".,.,.,.,StW, ,M2,.,Stone,."
+"., , ,M2,StW, , ,.,Diam,."
+"., , , ,StW,.,.,.,.,."
+".,.,.,.,StW,.,.,Stone,.,Diam"
+".,M2, , ,StW,., ,.,.,StW"
+"., , , ,StW,.,.,.,.,StW"
+".,.,.,.,StW,.,.,.,.,StW"
+"Diam,.,.,.,.,.,.,.,Exit,."
+</Data>
+
+<Parameters GameDifficulty="Easy">
+	<Gravity Direction="Down" />
+	<Gateways>
+ 	"1,1"
+ </Gateways>
+	<Goals Time="80">
+	  <Goal Gather="4" Item="Diam" Points="10" />
+	</Goals>
+
+ </Parameters>
+
+ 
+
+</Map>

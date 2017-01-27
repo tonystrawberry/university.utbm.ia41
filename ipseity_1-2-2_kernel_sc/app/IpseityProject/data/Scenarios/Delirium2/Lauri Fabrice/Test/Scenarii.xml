@@ -1,0 +1,13 @@
+<Scenarii NbrLevels="1" NbrMapsPerLevel="3" ReadOnly="1">
+
+  	<Scenario Name="testDiamant.xml" />
+	<Scenario Name="testMonstreSimple1.xml" />
+	<Scenario Name="testMonstreSimple2.xml" />
+	<Scenario Name="testMonstreSimple3.xml" />
+	<Scenario Name="testRocher.xml" />
+	<Scenario Name="testDangerImminent1.xml" />
+	<Scenario Name="testDangerImminent2.xml" />
+	<Scenario Name="testDangerImminent3.xml" />
+	<Scenario Name="ScenarioRapport.xml" />
+
+</Scenarii>

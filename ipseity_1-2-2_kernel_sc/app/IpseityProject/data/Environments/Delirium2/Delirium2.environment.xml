@@ -1,0 +1,9 @@
+<Environment Plugin="Delirium2GameEngine">
+
+  <Rules Name="Rules/delirium2.xml" />
+
+  <Renderer Name="Delirium2RenderEngine-FL">
+    <GraphicalEntities Name="RendererFL/delirium2GraphicalEntities.xml" />
+  </Renderer>
+
+</Environment>

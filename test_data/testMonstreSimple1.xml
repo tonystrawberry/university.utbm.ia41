@@ -1,0 +1,23 @@
+<Map Name="MapA IA542011" Width="5" Height="5">
+
+ <Data>
+
+  " ,       Avatar1,   Diam,    ,       ,     ,   "
+  "    M2,      ,    ,    ,     , ,        "
+  "       ,       ,     M2  ,    , , ,               "
+  "   ,       ,       ,   Exit     ,         , ,"
+ </Data>
+
+ <Parameters GameDifficulty="Easy">
+  <Gravity Direction="Down" />
+
+  <Gateways>
+    "2,1"
+  </Gateways>
+
+  <Goals Time="20">
+   <Goal Gather="1" Item="Diam" Points="2" />
+  </Goals>
+ </Parameters>
+
+</Map>

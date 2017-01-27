@@ -1,0 +1,22 @@
+<Map Name="test1" Width="5" Height="5">
+<Data>
+" , , , ,   Exit"
+" ,StW, ,StW, "
+" , , , , Stw"
+" , , ,StW, Diam"
+" Diam, ,Diam , ,StW"
+</Data>
+
+<Parameters GameDifficulty="Easy">
+  <Gravity Direction="Down" />
+
+  <Gateways>
+    "1,1"
+  </Gateways>
+
+  <Goals Time="20">
+   <Goal Gather="2" Item="Diam" Points="2" />
+  </Goals>
+ </Parameters>
+
+</Map>

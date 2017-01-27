@@ -1,0 +1,22 @@
+<Map Name="MapC IA542011" Width="6" Height="4" ReadOnly="0">
+
+ <Data>
+  "       ,  Stone,       ,  Stone,      .,  Stone"
+  "      .,      .,       ,      .,   Diam,      ."
+  "       ,       ,       ,   Diam,      .,       "
+  "   Diam,       ,  Stone,  Stone,   Diam,   Exit"
+ </Data>
+
+ <Parameters GameDifficulty="Easy">
+  <Gravity Direction="Down" />
+
+  <Gateways>
+    "1,1"
+  </Gateways>
+
+  <Goals Time="10">
+   <Goal Gather="4" Item="Diam" Points="2" />
+  </Goals>
+ </Parameters>
+
+</Map>

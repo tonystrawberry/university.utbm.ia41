@@ -1,0 +1,167 @@
+<Game Name="Delirium" Version="2" Date="2012/08" Author="Fabrice Lauri">
+
+  <Taxons>
+    <Taxon Name="Avatar1" />
+    <Taxon Name="Avatar2" />
+    <Taxon Name="Blue" />
+    <Taxon Name="Red" />
+    <Taxon Name="Green" />
+    <Taxon Name="Yellow" />
+    <Taxon Name="Purple" />
+    <Taxon Name="Black" />
+  </Taxons>
+
+  <Organizations Nbr="1">
+    <Organization>
+      <Taxon Name="Avatar1" />
+    </Organization>
+  </Organizations>
+
+  <RunningMode EndOnAvatarDeath="yes" EndOnAvatarSuccess="yes" />
+
+  <GameDifficulties>
+    <GameDifficulty Name="Easy" />
+  </GameDifficulties>
+
+  <Items>
+    <Item Name="." Description="Clay" Weight="0" MaxSturdiness="1" Properties="Accessible,Permeable,CanBeGathered,CanBeDeposited" />
+    <Item Name="Diam" Description="Diamond" Weight="1" MaxSturdiness="1" Properties="Accessible,Slippery,CanFall,CanSlide,CanBePushed,CanBeGathered,CanBeDeposited,CanBeGrabbed,Countable" />
+    <Item Name="Stone" Description="Stone" Weight="2" MaxSturdiness="1" Properties="Slippery,CanFall,CanSlide,CanBePushed,CanBeGrabbed,Countable" />
+
+    <Item Name="SlW1" Description="Silver Wall #1" Weight="0" MaxSturdiness="-1" />
+    <Item Name="SlW2" Description="Silver Wall #2" Weight="0" MaxSturdiness="-1" />
+    <Item Name="StW" Description="Stone Wall" Weight="0" MaxSturdiness="4" Properties="Slippery" />
+    <Item Name="MW" Description="Metamorphic Wall" Weight="0" MaxSturdiness="4" Properties="CanMetamorph,Slippery,CanBeActivated" />
+    <Item Name="LAW" Description="Left Arrow Wall" Weight="0" MaxSturdiness="1" />
+    <Item Name="RAW" Description="Right Arrow Wall" Weight="0" MaxSturdiness="1" />
+    <Item Name="UAW" Description="Up Arrow Wall" Weight="0" MaxSturdiness="1" />
+    <Item Name="DAW" Description="Down Arrow Wall" Weight="0" MaxSturdiness="1" />
+    <Item Name="LA" Description="Left Access" Weight="0" MaxSturdiness="1" Properties="LeftAccess" />
+    <Item Name="RA" Description="Right Access" Weight="0" MaxSturdiness="1" Properties="RightAccess" />
+    <Item Name="UA" Description="Up Access" Weight="0" MaxSturdiness="1" Properties="UpAccess" />
+    <Item Name="DA" Description="Down Access" Weight="0" MaxSturdiness="1" Properties="DownAccess" />
+    <Item Name="HA" Description="Horizontal Access" Weight="0" MaxSturdiness="1" Properties="LeftAccess,RightAccess" />
+    <Item Name="VA" Description="Vertical Access" Weight="0" MaxSturdiness="1" Properties="UpAccess,DownAccess" />
+    <Item Name="CA" Description="Cross Access" Weight="0" MaxSturdiness="1" Properties="LeftAccess,RightAccess,UpAccess,DownAccess" />
+    <Item Name="HMW" Description="Horizontal Mobile Wall" Weight="0" MaxSturdiness="1" Properties="MobileWall,CanTransportItem,CanPushItem" />
+    <Item Name="VMW" Description="Vertical Mobile Wall" Weight="0" MaxSturdiness="1" Properties="MobileWall,CanTransportItem,CanPushItem" />
+
+    <Item Name="Exit" Description="Exit" Weight="0" MaxSturdiness="1" Properties="Exit" />
+
+    <Item Name="Avatar1" Description="Avatar #1" Weight="0" MaxSturdiness="1" Properties="PC,CanBeKilled,CanBePushed" Group="1" MinPerceptionPerimeter="0,0" MaxPerceptionPerimeter="15,15" />
+    <Item Name="Avatar2" Description="Avatar #2" Weight="0" MaxSturdiness="1" Properties="PC,CanBeKilled,CanBePushed" Group="1" MinPerceptionPerimeter="0,0" MaxPerceptionPerimeter="15,15" />
+
+    <Item Name="M1" Description="Blue Monster" Weight="0" MaxSturdiness="1" Properties="NPC,CanBeKilled,CanHurt" Group="2" MinPerceptionPerimeter="1,1" MaxPerceptionPerimeter="1,1" />
+    <Item Name="M2" Description="Red Monster" Weight="0" MaxSturdiness="1" Properties="NPC,CanBeKilled,CanHurt" Group="2" MinPerceptionPerimeter="1,1" MaxPerceptionPerimeter="1,1" />
+    <Item Name="M3" Description="Green Monster" Weight="0" MaxSturdiness="1" Properties="NPC,CanBeKilled,CanHurt" Group="2" MinPerceptionPerimeter="1,1" MaxPerceptionPerimeter="1,1" />
+    <Item Name="M4" Description="Yellow Monster" Weight="0" MaxSturdiness="1" Properties="NPC,CanBeKilled,CanHurt" Group="3" MinPerceptionPerimeter="1,1" MaxPerceptionPerimeter="1,1" />
+    <Item Name="M5" Description="Purple Monster" Weight="0" MaxSturdiness="1" Properties="NPC,CanBeKilled,CanHurt,Transformable" Group="2" MinPerceptionPerimeter="1,1" MaxPerceptionPerimeter="1,1" />
+    <Item Name="M6" Description="Black Monster" Weight="0" MaxSturdiness="1" Properties="NPC,CanBeKilled,CanHurt" Group="2" MinPerceptionPerimeter="1,1" MaxPerceptionPerimeter="1,1" />
+
+    <Item Name="Amoeba" Description="Expanding liquid" Weight="0" MaxSturdiness="1" Properties="Liquid" Group="4" />
+
+    <Item Name="Bomb" Description="Bomb" Weight="0" MaxSturdiness="1" Properties="Accessible,CanBeGathered,CanBeDeposited,CanBeGrabbed,CanExplode,CanExplodeInChain,Countable" />
+    <Item Name="Deton" Description="Detonator" Weight="0" MaxSturdiness="1" Properties="CanBeActivated" />
+    <Item Name="Dyna" Description="Dynamite" Weight="0" MaxSturdiness="1" Properties="CanBePushed,CanBeGrabbed,CanExplode,CanExplodeInChain" />
+    <Item Name="Nitro" Description="Nitro" Weight="1" EnergyForPushing="5" MaxSturdiness="1" Properties="CanFall,CanBePushed,CanBeGrabbed,CanExplode,CanExplodeInChain,CanBeActivated" />
+
+    <Item Name="Key" Description="Key" Weight="0" MaxSturdiness="1" Properties="Accessible,CanBeGathered,CanBeDeposited,CanBeGrabbed" />
+    <Item Name="Lock" Description="Lock" Weight="0" MaxSturdiness="-1" Properties="CanBeActivated" />
+    <Item Name="Door1" Description="Door #1" Weight="0" MaxSturdiness="-1" Properties="CanBeActivated" />
+    <Item Name="Door2" Description="Door #2" Weight="0" MaxSturdiness="-1" Properties="CanBeActivated" />
+    <Item Name="Door1OC" Description="Door #1 Command" Weight="0" MaxSturdiness="-1" Properties="CanBeActivated" />
+    <Item Name="Door2OC" Description="Door #2 Command" Weight="0" MaxSturdiness="-1" Properties="CanBeActivated" />
+
+    <Item Name="SD" Description="Item Generator" Weight="0" MaxSturdiness="1" Properties="Generator" />
+
+    <Item Name="GU" Description="Gravity Up" Weight="0" MaxSturdiness="1" Properties="Accessible,CanChangeGravity" />
+    <Item Name="GD" Description="Gravity Down" Weight="0" MaxSturdiness="1" Properties="Accessible,CanChangeGravity" />
+    <Item Name="GC" Description="Gravity Command" Weight="0" MaxSturdiness="1" Properties="CanBeActivated,CanChangeGravity" />
+
+    <Item Name="BTr" Description="Blue Treadmill" Weight="0" MaxSturdiness="1" Properties="Treadmill" />
+    <Item Name="RTr" Description="Red Treadmill" Weight="0" MaxSturdiness="1" Properties="Treadmill,CanBeActivated" />
+    <Item Name="GTr" Description="Green Treadmill" Weight="0" MaxSturdiness="1" Properties="Treadmill,CanBeActivated" />
+    <Item Name="GTC" Description="Green Treadmill Activation Command" Weight="0" MaxSturdiness="1" Properties="CanBeActivated" />
+  </Items>
+
+  <Parameters>
+    <MapBorder Item="SlW2" />
+  </Parameters>
+
+  <EnemiesGroups>
+    <Enemies Groups="1,2" />
+    <Enemies Groups="1,3" />
+    <Enemies Groups="2,3" />
+    <Enemies Groups="2,4" />
+    <Enemies Groups="3,4" />
+  </EnemiesGroups>
+
+  <ExplosionRules>
+    <DefaultExplosionAspect NewItem=" " Shape="Square" Size="1" Duration="2" />
+
+    <ExplosionRule Item1="M1" Item2="*" NewItem="Diam" Duration="1" />
+    <ExplosionRule Item1="M3" Item2="*" NewItem="Stone" Duration="4" />
+    <ExplosionRule Item1="M4" Item2="Stone" NewItem="M4" Shape="Plus" Size="1" Duration="5" />
+    <ExplosionRule Item1="M6" Item2="*" NewItem="StW" Shape="Plus" Size="2" Duration="8" />
+  </ExplosionRules>
+
+  <GravityItems>
+    <GravityItem Item="GU" Gravity="Up" />
+    <GravityItem Item="GD" Gravity="Down" />
+  </GravityItems>
+
+  <MovableItems>
+    <MovableItem Item="Diam" Speed="10" />
+    <MovableItem Item="Stone" Speed="10" />
+    <MovableItem Item="Avatar1" Speed="10" />
+    <MovableItem Item="Avatar2" Speed="10" />
+    <MovableItem Item="M1" Speed="9" />
+    <MovableItem Item="M2" Speed="10" />
+    <MovableItem Item="M3" Speed="8" />
+    <MovableItem Item="M4" Speed="8" />
+    <MovableItem Item="M5" Speed="9" />
+    <MovableItem Item="M6" Speed="7" />
+    <MovableItem Item="Nitro" Speed="10" />
+    <MovableItem Item="Dyna" Speed="10" />
+  </MovableItems>
+
+  <MetamorphicItems>
+    <MetamorphicItem Item="MW">
+      <MetamorphosisRules>
+        <MetamorphosisRule Item="Diam" NewItem="Stone" />
+        <MetamorphosisRule Item="Stone" NewItem="Diam" />
+      </MetamorphosisRules>
+    </MetamorphicItem>
+  </MetamorphicItems>
+
+  <Liquids>
+    <Liquid Item="Amoeba" IdleDelay="10" MaxSeedsForMasteredTransformation="80" NewItemForMasteredTransformation="Diam" NewItemForLatelyMasteredTransformation="Stone" MaxSeedsForUltimateTransformation="120" NewItemForUltimateTransformation="Stone" DelayForTransformation="50" />
+  </Liquids>
+
+  <Generators>
+    <Generator Item="SD" CreationDirection="0,1" NewItem="Stone" />
+  </Generators>
+
+  <TransformableItems>
+    <TransformableItem Item="M5" NewItem="M1" />
+  </TransformableItems>
+
+  <ActivationDevices>
+    <ActivationDevice Item="MW" ActivationCondition="Hit" ActivateConnectedItems="MW" ActivationDelay="500" MaxNbrCycles="1" />
+    <ActivationDevice Item="Bomb" ActivationCondition="Deposited" ArmedDelay="20" MaxNbrCycles="1" />
+    <ActivationDevice Item="Deton" ActivationCondition="Carry,Touched" ResponsiveDelay="5" ActivateItems="Dyna" MaxNbrCycles="1" />
+    <ActivationDevice Item="Dyna" MaxNbrCycles="1" />
+    <ActivationDevice Item="Nitro" ActivationCondition="Hit,ReachedGround" MaxNbrCycles="1" />
+    <ActivationDevice Item="Lock" ActivationCondition="Touched" UseItem="Key" ArmedDelay="10" NewItemWhenActivated=" " MaxNbrCycles="1" />
+    <ActivationDevice Item="Door1" NewItemWhenActivated=" " MaxNbrCycles="1" />
+    <ActivationDevice Item="Door1OC" ActivationCondition="Touched" ResponsiveDelay="10" ActivateItems="Door1" MaxNbrCycles="1" />
+    <ActivationDevice Item="Door2" NewItemWhenActivated=" " MaxNbrCycles="1" />
+    <ActivationDevice Item="Door2OC" ActivationCondition="Touched" ResponsiveDelay="10" ActivateItems="Door2" MaxNbrCycles="1" />
+    <ActivationDevice Item="SD" ActivationCondition="Touched" ResponsiveDelay="2" MaxNbrCycles="50" />
+    <ActivationDevice Item="GC" ActivationCondition="Carry,Touched" ResponsiveDelay="5" DeactivationDelay="3" Cycles="Up,Down" MaxNbrCycles="-1" />
+    <ActivationDevice Item="RTr" ActivationCondition="Hit" ActivateConnectedItems="RTr" ActivationDelay="10000" MaxNbrCycles="-1" Speed="10" />
+    <ActivationDevice Item="GTr" ActivationDelay="10000" MaxNbrCycles="-1" Speed="10" />
+    <ActivationDevice Item="GTC" ActivationCondition="Touched" ResponsiveDelay="2" ActivateItems="GTr" MaxNbrCycles="1" />
+  </ActivationDevices>
+
+</Game>

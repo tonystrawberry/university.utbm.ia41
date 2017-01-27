@@ -1,0 +1,15 @@
+SWI-Prolog License Conditions
+
+Preamble
+
+SWI-Prolog licensing aims at a large audience, combining ideas from the Free Software Foundation and the less principal Open Source Initiative. The license aims at the following:
+
+Make SWI-Prolog itself and its libraries `As free as possible'.
+Allow for easy integration of contributions.
+Free software can build on SWI-Prolog without limitations.
+Non-free (open or proprietary) software can be produced using SWI-Prolog, although contributed pure GPL components cannot be used.
+To achieve this, different parts of the system have different licenses. SWI-Prolog programs consist of a mixture of `native' code (source compiled to machine instructions) and `virtual machine' code (Prolog source compiled to SWI-Prolog virtual machine instructions, covering both compiled SWI-Prolog libraries and your compiled application).
+
+For further details, plese go to:
+
+http://www.swi-prolog.org/license.html

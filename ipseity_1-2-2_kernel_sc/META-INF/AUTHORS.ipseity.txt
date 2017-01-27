@@ -1,0 +1,12 @@
+This file contains the major developers and contributors. 
+See http://www.ipseity-project.com for more details.
+
+
+
+1. Core Developers for Ipseity
+
+Fabrice Lauri <fabrice.lauri@utbm.fr>
+
+
+2. Contributors for Ipseity
+Jiawei Zhu <jiawei.zhu@utbm.fr>

@@ -1,0 +1,5 @@
+<Module Name="VersatileCognitiveModule">
+
+  <BehaviorModule Name="BM_MonsterClass1" />
+
+</Module>

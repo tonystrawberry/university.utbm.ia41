@@ -1,0 +1,26 @@
+<Map Name="test5" Width="10" Height="10">
+<Data>
+" , , Stone, , , Stone, , , StW, Exit"
+" , , , , , Stone, , , StW, "
+" , , , Stone, , , , , StW, "
+" , ,, , Stone, , , , StW, "
+" , , , , , , , , StW, "
+" , , , , , , , , StW, Diam"
+" , , , , , , , , StW, "
+" , , , , , , , , StW, "
+" , , , , , , , , StW, "
+" , , , , , , , , , "
+</Data>
+ <Parameters GameDifficulty="Easy">
+  <Gravity Direction="Down" />
+
+  <Gateways>
+    "2,5"
+  </Gateways>
+
+  <Goals Time="20">
+   <Goal Gather="1" Item="Diam" Points="2" />
+  </Goals>
+ </Parameters>
+
+</Map>

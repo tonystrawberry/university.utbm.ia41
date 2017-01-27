@@ -1,0 +1,8 @@
+<ControlBindings>
+  <Event Name="NoAction" Keys="" Command="SuggestResponse" Parameters="0" />
+
+  <Event Name="Up" Keys="O" Command="SuggestResponse" Parameters="2" />
+  <Event Name="Down" Keys="L" Command="SuggestResponse" Parameters="4" />
+  <Event Name="Left" Keys="K" Command="SuggestResponse" Parameters="3" />
+  <Event Name="Right" Keys="M" Command="SuggestResponse" Parameters="1" />
+</ControlBindings>

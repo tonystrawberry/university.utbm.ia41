@@ -1,0 +1,26 @@
+<Map Name="MapB IA542011" Width="14" Height="8">
+
+ <Data>
+  "       ,    StW,       ,    StW,       ,    StW,       ,    StW,       ,       ,    StW,       ,       ,       "
+  "       ,    StW,       ,    StW,       ,    StW,       ,    StW,       ,       ,       ,       ,   Diam,       "
+  "       ,    StW,       ,    StW,       ,    StW,       ,    StW,  Stone,  Stone,    StW,   Diam,   Diam,   Diam"
+  "       ,       ,       ,    StW,       ,    StW,       ,    StW,      .,      .,    StW,    StW,    StW,    StW"
+  "       ,    StW,       ,       ,       ,    StW,       ,    StW,       ,       ,    StW,       ,       ,       "
+  "       ,    StW,       ,    StW,       ,       ,       ,    StW,       ,       ,       ,       ,   Diam,       "
+  "       ,    StW,       ,    StW,       ,    StW,       ,       ,       ,       ,    StW,      .,   Diam,      ."
+  "       ,    StW,       ,    StW,       ,    StW,       ,    StW,       ,       ,    StW,       ,      .,   Exit"
+ </Data>
+
+ <Parameters GameDifficulty="Easy">
+  <Gravity Direction="Down" />
+
+  <Gateways>
+    "1,1"
+  </Gateways>
+
+  <Goals Time="20">
+   <Goal Gather="6" Item="Diam" Points="2" />
+  </Goals>
+ </Parameters>
+
+</Map>

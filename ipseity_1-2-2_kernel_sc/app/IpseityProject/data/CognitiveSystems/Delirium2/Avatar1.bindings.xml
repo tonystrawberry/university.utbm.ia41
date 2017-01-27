@@ -1,0 +1,32 @@
+<ControlBindings>
+  <Event Name="NoAction" Keys="" Command="SuggestResponse" Parameters="0" />
+
+  <Event Name="DigRight" Keys="SHIFT+RIGHT" Command="SuggestResponse" Parameters="5" />
+  <Event Name="DigUp" Keys="SHIFT+UP" Command="SuggestResponse" Parameters="6" />
+  <Event Name="DigLeft" Keys="SHIFT+LEFT" Command="SuggestResponse" Parameters="7" />
+  <Event Name="DigDown" Keys="SHIFT+DOWN" Command="SuggestResponse" Parameters="8" />
+
+  <Event Name="LayRight" Keys="CTRL+RIGHT" Command="SuggestResponse" Parameters="9" />
+  <Event Name="LayUp" Keys="CTRL+UP" Command="SuggestResponse" Parameters="10" />
+  <Event Name="LayLeft" Keys="CTRL+LEFT" Command="SuggestResponse" Parameters="11" />
+  <Event Name="LayDown" Keys="CTRL+DOWN" Command="SuggestResponse" Parameters="12" />
+
+  <Event Name="GrabRight" Keys="ALT+RIGHT" Command="SuggestResponse" Parameters="13" />
+  <Event Name="GrabUp" Keys="ALT+UP" Command="SuggestResponse" Parameters="14" />
+  <Event Name="GrabLeft" Keys="ALT+LEFT" Command="SuggestResponse" Parameters="15" />
+  <Event Name="GrabDown" Keys="ALT+DOWN" Command="SuggestResponse" Parameters="16" />
+
+  <Event Name="Right" Keys="RIGHT" Command="SuggestResponse" Parameters="1" />
+  <Event Name="Up" Keys="UP" Command="SuggestResponse" Parameters="2" />
+  <Event Name="Left" Keys="LEFT" Command="SuggestResponse" Parameters="3" />
+  <Event Name="Down" Keys="DOWN" Command="SuggestResponse" Parameters="4" />
+
+  <Event Name="GatherEnergy" Keys="G" Command="SuggestResponse" Parameters="17" />
+  <Event Name="Throw" Keys="T" Command="SuggestResponse" Parameters="18" />
+
+  <Event Name="SelectPreviousItem" Keys="PAGE_UP" Type="Single" Command="SuggestResponse" Parameters="19" />
+  <Event Name="SelectNextItem" Keys="PAGE_DOWN" Type="Single" Command="SuggestResponse" Parameters="20" />
+
+  <Event Name="Peaceful" Keys="F5" Type="Single" Command="SuggestResponse" Parameters="2203" />
+  <Event Name="Invincible" Keys="F6" Type="Single" Command="SuggestResponse" Parameters="402" />
+</ControlBindings>

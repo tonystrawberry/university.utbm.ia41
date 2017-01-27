@@ -1,0 +1,66 @@
+<Game Name="Delirium" Version="2" Date="2012/08" Author="Fabrice Lauri">
+
+  <Items>
+    <Item Name="." Description="Clay" Model="grass01.3ds" />
+    <Item Name="Diam" Description="Diamond" Model="diamond01.3ds" SpriteOrientation="30,0,0" />
+    <Item Name="Stone" Description="Stone" Model="stone01.3ds" />
+
+    <Item Name="SlW1" Description="Silver Wall #1" Model="silverWall01.3ds" />
+    <Item Name="SlW2" Description="Silver Wall #2" Model="silverWall02.3ds" />
+    <Item Name="StW" Description="Stone Wall" Model="stoneWall01.3ds" />
+    <Item Name="MW" Description="Metamorphic Wall" Model="stoneWall01.3ds" />
+    <Item Name="LAW" Description="Left Arrow Wall" Model="silverWall01.3ds" />
+    <Item Name="RAW" Description="Right Arrow Wall" Model="silverWall01.3ds" />
+    <Item Name="UAW" Description="Up Arrow Wall" Model="silverWall01.3ds" />
+    <Item Name="DAW" Description="Down Arrow Wall" Model="silverWall01.3ds" />
+    <Item Name="LA" Description="Left Access" Model="arrowWall01.3ds" />
+    <Item Name="RA" Description="Right Access" Model="arrowWall01.3ds" />
+    <Item Name="UA" Description="Up Access" Model="arrowWall01.3ds" />
+    <Item Name="DA" Description="Down Access" Model="arrowWall01.3ds" />
+    <Item Name="HA" Description="Horizontal Access" Model="arrowWall01.3ds" />
+    <Item Name="VA" Description="Vertical Access" Model="arrowWall01.3ds" />
+    <Item Name="CA" Description="Cross Access" Model="arrowWall01.3ds" />
+    <Item Name="HMW" Description="Horizontal Moving Wall" Model="stoneWall01.3ds" />
+    <Item Name="VMW" Description="Vertical Moving Wall" Model="stoneWall01.3ds" />
+
+    <Item Name="Exit" Description="Exit" Model="exit01.3ds" SpriteOrientation="0,-90,0" />
+
+    <Item Name="Avatar1" Description="Avatar #1" Model="miner01.3ds" SpriteOrientation="20,-90,0" />
+    <Item Name="Avatar2" Description="Avatar #2" Model="miner02.3ds" SpriteOrientation="20,-90,0" />
+
+    <Item Name="M1" Description="Blue Monster" Model="monster01.3ds" SpriteOrientation="20,-90,0" />
+    <Item Name="M2" Description="Red Monster" Model="monster02.3ds" SpriteOrientation="20,-90,0" />
+    <Item Name="M3" Description="Green Monster" Model="monster03.3ds" SpriteOrientation="20,-90,0" />
+    <Item Name="M4" Description="Yellow Monster" Model="monster04.3ds" SpriteOrientation="20,-90,0" />
+    <Item Name="M5" Description="Purple Monster" Model="monster05.3ds" SpriteOrientation="20,-90,0" />
+    <Item Name="M6" Description="Black Monster" Model="monster05.3ds" SpriteOrientation="20,-90,0" />
+
+    <Item Name="Amoeba" Description="Expanding liquid" Model="amoeba01.3ds" />
+
+    <Item Name="Bomb" Description="Bomb" Model="bomb.3ds" />
+    <Item Name="Deton" Description="Detonator" Model="detonator.3ds" SpriteOrientation="20,0,0" />
+    <Item Name="Dyna" Description="Dynamite" Model="tnt.3ds" />
+    <Item Name="Nitro" Description="Nitro" Model="nitro.3ds" />
+
+    <Item Name="Key" Description="Key" Model="key.3ds" />
+    <Item Name="Lock" Description="Lock" Model="lock.3ds" />
+    <Item Name="Door1" Description="Door #1" Model="door01.3ds" />
+    <Item Name="Door2" Description="Door #2" Model="door02.3ds" />
+    <Item Name="Door1OC" Description="Door #1 Command" Model="door01cmd.3ds" />
+    <Item Name="Door2OC" Description="Door #2 Command" Model="door02cmd.3ds" />
+
+    <Item Name="SD" Description="Item Generator" Model="distributor01.3ds" />
+
+    <Item Name="GU" Description="Gravity Up" Model="gravityUp.3ds" />
+    <Item Name="GD" Description="Gravity Down" Model="gravityDown.3ds" />
+    <Item Name="GC" Description="Gravity Command" Model="gravityUpCmd.3ds" />
+
+    <Item Name="BTr" Description="Blue Treadmill" Model="blueCenterTreadmill.3ds" SpriteOrientation="20,0,0" />
+    <Item Name="RTr" Description="Red Treadmill" Model="redCenterTreadmill.3ds" SpriteOrientation="20,0,0" />
+    <Item Name="GTr" Description="Green Treadmill" Model="greenCenterTreadmill.3ds" SpriteOrientation="20,0,0" />
+    <Item Name="GTC" Description="Green Treadmill Activation Command" Model="greenTreadmillCmd.3ds" />
+
+    <Item Name="Explosion" Model="explosion01.3ds" />
+  </Items>
+
+</Game>

@@ -1,0 +1,5 @@
+<Module Name="VersatileCognitiveModule">
+
+  <BehaviorModule Command="build_PrologBehaviorModule.bat" Source="prolog/00/think.pl" Output="BM_Avatar" Environment="Delirium2" />
+
+</Module>

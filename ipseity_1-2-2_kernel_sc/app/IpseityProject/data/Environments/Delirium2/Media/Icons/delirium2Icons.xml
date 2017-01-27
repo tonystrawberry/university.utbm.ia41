@@ -1,0 +1,64 @@
+<Game Name="Delirium" Version="2" Date="2012/08" Author="Fabrice Lauri">
+
+  <Items>
+    <Item Name="." Description="Clay" Model="grass01.bmp" />
+    <Item Name="Diam" Description="Diamond" Model="diamond01.bmp" />
+    <Item Name="Stone" Description="Stone" Model="stone01.bmp" />
+
+    <Item Name="SlW1" Description="Silver Wall #1" Model="silverWall01.bmp" />
+    <Item Name="SlW2" Description="Silver Wall #2" Model="silverWall02.bmp" />
+    <Item Name="StW" Description="Stone Wall" Model="stoneWall01.bmp" />
+    <Item Name="MW" Description="Metamorphic Wall" Model="stoneWall01.bmp" />
+    <Item Name="LAW" Description="Left Arrow Wall" Model="silverWall01.bmp" />
+    <Item Name="RAW" Description="Right Arrow Wall" Model="silverWall01.bmp" />
+    <Item Name="UAW" Description="Up Arrow Wall" Model="silverWall01.bmp" />
+    <Item Name="DAW" Description="Down Arrow Wall" Model="silverWall01.bmp" />
+    <Item Name="LA" Description="Left Access" Model="arrowWall01.bmp" />
+    <Item Name="RA" Description="Right Access" Model="arrowWall01.bmp" />
+    <Item Name="UA" Description="Up Access" Model="arrowWall01.bmp" />
+    <Item Name="DA" Description="Down Access" Model="arrowWall01.bmp" />
+    <Item Name="HA" Description="Horizontal Access" Model="arrowWall01.bmp" />
+    <Item Name="VA" Description="Vertical Access" Model="arrowWall01.bmp" />
+    <Item Name="CA" Description="Cross Access" Model="arrowWall01.bmp" />
+    <Item Name="HMW" Description="Horizontal Moving Wall" Model="stoneWall01.bmp" />
+    <Item Name="VMW" Description="Vertical Moving Wall" Model="stoneWall01.bmp" />
+
+    <Item Name="Exit" Description="Exit" Model="exit01.bmp" />
+
+    <Item Name="Avatar1" Description="Avatar #1" Model="miner01.bmp" />
+    <Item Name="Avatar2" Description="Avatar #2" Model="miner02.bmp" />
+
+    <Item Name="M1" Description="Blue Monster" Model="monster01.bmp" />
+    <Item Name="M2" Description="Red Monster" Model="monster02.bmp" />
+    <Item Name="M3" Description="Green Monster" Model="monster03.bmp" />
+    <Item Name="M4" Description="Yellow Monster" Model="monster04.bmp" />
+    <Item Name="M5" Description="Purple Monster" Model="monster05.bmp" />
+    <Item Name="M6" Description="Black Monster" Model="monster05.bmp" />
+
+    <Item Name="Amoeba" Description="Expanding liquid" Model="amoeba01.bmp" />
+
+    <Item Name="Bomb" Description="Bomb" Model="bomb.bmp" />
+    <Item Name="Deton" Description="Detonator" Model="detonator.bmp" />
+    <Item Name="Dyna" Description="Dynamite" Model="tnt.bmp" />
+    <Item Name="Nitro" Description="Nitro" Model="nitro.bmp" />
+
+    <Item Name="Key" Description="Key" Model="key.bmp" />
+    <Item Name="Lock" Description="Lock" Model="lock.bmp" />
+    <Item Name="Door1" Description="Door #1" Model="door01.bmp" />
+    <Item Name="Door2" Description="Door #2" Model="door02.bmp" />
+    <Item Name="Door1OC" Description="Door #1 Command" Model="door01cmd.bmp" />
+    <Item Name="Door2OC" Description="Door #2 Command" Model="door02cmd.bmp" />
+
+    <Item Name="SD" Description="Item Generator" Model="distributor01.bmp" />
+
+    <Item Name="GU" Description="Gravity Up" Model="gravityUp.bmp" />
+    <Item Name="GD" Description="Gravity Down" Model="gravityDown.bmp" />
+    <Item Name="GC" Description="Gravity Command" Model="gravityUpCmd.bmp" />
+
+    <Item Name="BTr" Description="Blue Treadmill" Model="blueCenterTreadmill.bmp" />
+    <Item Name="RTr" Description="Red Treadmill" Model="redCenterTreadmill.bmp" />
+    <Item Name="GTr" Description="Green Treadmill" Model="greenCenterTreadmill.bmp" />
+    <Item Name="GTC" Description="Green Treadmill Activation Command" Model="greenTreadmillCmd.bmp" />
+  </Items>
+
+</Game>
