@@ -1,10 +1,11 @@
-## IA41
+<p align="center">
+  <img src="https://archives.bulbagarden.net/media/upload/thumb/7/74/722Rowlet.png/250px-722Rowlet.png" width="60" />
+</p>
+<h1 align="center">
+  ⚽️ UTBM IA41 - Game with AI implemented in Prolog 
+</h1>
 
-- Notre rapport fait 52 pages. (25 pages sans annexes au lieu de 15 comme demandé) 
-Nous avons préféré faire des sauts de page pour rendre le rapport plus lisible et l'avons étoffé d'images pour le rendre plus compréhensible. 
+- 👨🏻‍💻 Project done as part of my Master's degree course on Artificial Intelligence at the Universite de Technologie de Belfort-Montbeliard
 
-- Pour tester notre intelligence artificielle, 
-veuillez copier les dossiers 'Test' et 'IA54' qui contiennent les cartes de test, dans l'emplacement suivant :
-'\ipseity_1-2-2_kernel_sc\app\IpseityProject\data\Scenarios\Delirium2\Lauri Fabrice'.
-
-- Les scénarios fournis avec 'BoulderDash' ne fonctionnent pas. Les cartes sont trop grandes.
+## 🛠 Setup
+Copy `Test` and `IA54` folders to `\ipseity_1-2-2_kernel_sc\app\IpseityProject\data\Scenarios\Delirium2\Lauri Fabrice`
